@@ -1,0 +1,92 @@
+.panel-container {
+  background-color: white;
+  min-width: 250px;
+  height: 800px;
+  /* margin: 70px 0 20px 20px; */
+  padding: 15px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2),
+    0px 0px 14px 0px rgba(0, 0, 0, 0.1);
+}
+
+.item-image {
+  width: 130px;
+  height: auto;
+  padding-bottom: 15px;
+}
+.subtitle {
+  font-size: 12px;
+  color: gray;
+  padding: 0 25px;
+}
+
+.tags-container {
+  padding-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.tags-container > div {
+  padding: 15px 13px;
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  justify-content: space-between;
+}
+
+.tags-container::before {
+  content: '';
+  display: block;
+  border: 1px solid #989a9c1c;
+  width: 100%;
+}
+
+.tag {
+  border: 1px solid rgba(182, 176, 176, 0.459);
+  font-size: 12px;
+  border-radius: 4px;
+  margin: 5px;
+}
+
+.tag:not(:last-child) {
+  margin-right: 15px;
+}
+
+.panel-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.panel-icons-container {
+  margin-top: 15px;
+  width: 100%;
+  height: auto;
+  align-items: flex-start;
+}
+
+.panel-icons-container > div {
+  margin-left: 20px;
+  display: flex;
+}
+
+.panel-icons-container > div:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.panel-icons-container span {
+  text-transform: uppercase;
+  margin-left: 10px;
+  font-size: 14px;
+}
+.sales-icon-container span {
+  font-weight: 600;
+}
+
+.overview-icon-container span {
+  color: gray;
+}

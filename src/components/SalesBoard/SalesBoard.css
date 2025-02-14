@@ -1,0 +1,50 @@
+.sales-board {
+  background-color: white;
+  min-width: 800px;
+  width: 100%;
+  margin-bottom: 40px;
+  padding-top: 10px;
+  font-family: 'Arial', sans-serif;
+}
+
+.sales-header {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 15px;
+}
+
+.sales-header-column {
+  width: 115px;
+  display: flex;
+  text-transform: uppercase;
+  font-size: small;
+  padding: 7px 0;
+}
+
+.sales-header-column > span {
+  text-transform: uppercase;
+  font-size: small;
+}
+
+.sales-row:hover {
+  background-color: #f6f8fa;
+}
+
+.sales-row > div {
+  display: flex;
+  justify-content: space-around;
+  padding: 8px 0;
+}
+
+.sales-row::after {
+  content: '';
+  display: block;
+  border: 1px solid #989a9c1c;
+}
+
+.sales-row > div > span {
+  width: 115px;
+  color: #989a9c;
+  text-align: left;
+  font-size: smaller;
+}

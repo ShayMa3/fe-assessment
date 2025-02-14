@@ -1,0 +1,8 @@
+{
+  "gitlens.menus": null,
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#07012ca2",
+    "titleBar.activeBackground": "#0e0541",
+    "titleBar.activeForeground": "#FCFBFF"
+  }
+}
