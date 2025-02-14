@@ -1,5 +1,6 @@
 {
   "name": "stackline-assessment",
+  "homepage": "https://shayma3.github.io/fe-assessment",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -27,7 +28,9 @@
     "start": "NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
     "build": "NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -48,5 +51,8 @@
     "trailingComma": "es5",
     "semi": true,
     "singleQuote": true
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
